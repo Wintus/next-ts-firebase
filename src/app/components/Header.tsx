@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Header = ({ pathname }) => (
+const Header = ({ pathname }: { pathname?: string }) => (
   <header>
     <Link href="/">
       <a className={pathname === "/" ? "is-active" : ""}>Home</a>
