@@ -1,25 +1,24 @@
 import React from "react";
 import Link from "next/link";
 
-const Header = ({ pathname }: { pathname?: string }) => (
-  <header style={{ display: "flex" }}>
-    <Link href="/">
+const Header = ({ pathname }: { pathname?: string }) => {
+  const link = (path, name) => (
+    <Link href={path}>
       <a
-        className={pathname === "/" ? "is-active" : ""}
+        className={pathname === path ? "is-active" : ""}
         style={{ margin: "0 .25rem" }}
       >
-        Home
+        {name}
       </a>
     </Link>
-    <Link href="/about">
-      <a
-        className={pathname === "/about" ? "is-active" : ""}
-        style={{ margin: "0 .25rem" }}
-      >
-        About
-      </a>
-    </Link>
-  </header>
-);
+  );
+
+  return (
+    <header style={{ display: "flex" }}>
+      {link("/", "Home")}
+      {link("/about", "About")}
+    </header>
+  );
+};
 
 export default Header;
