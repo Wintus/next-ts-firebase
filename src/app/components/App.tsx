@@ -1,7 +1,7 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Header from "./Header";
 
-const App = ({ children }) => (
+const App = ({ children }: { children?: ReactNode }) => (
   <main>
     <Header />
     {children}

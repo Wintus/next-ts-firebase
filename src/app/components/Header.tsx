@@ -11,7 +11,7 @@ const Item = styled.div`
 `;
 
 const Header = ({ pathname }: { pathname?: string }) => {
-  const link = (path, name) => (
+  const link = (path: string, name: string) => (
     <Item>
       <Link href={path}>
         <a className={pathname === path ? "is-active" : ""}>{name}</a>
