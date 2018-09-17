@@ -1,3 +1,3 @@
-module.exports = {
-  distDir: '../../dist/functions/next'
-}
+const distDir = "../../dist/functions/next";
+
+module.exports = { distDir };
