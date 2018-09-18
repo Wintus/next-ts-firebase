@@ -74,3 +74,4 @@ dist/
 # Serverless directories
 .serverless
 
+.firebase/
