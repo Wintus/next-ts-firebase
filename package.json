@@ -1,5 +1,5 @@
 {
-  "name": "next-ts-styled-firebase",
+  "name": "next-ts-firebase",
   "version": "4.0.1",
   "description": "Host Next.js SSR app on Firebase Cloud Functions with Firebase Hosting redirects.",
   "license": "GPL-3.0",
