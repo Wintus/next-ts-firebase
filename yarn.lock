@@ -1724,6 +1724,13 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
+"@types/styled-jsx@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@types/styled-jsx/-/styled-jsx-2.2.5.tgz#49a332f9c68d916660466b1f7ed1710ac63a3e1f"
+  integrity sha512-o2PSECoqQIwsZ3DotHGg38yNWiZdgIEVUjEYLS7kawkj9yFkgEke3gHHA+tmn3bljI2y9CT25WXUWCBUzEVYeQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/tough-cookie@*":
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-2.3.3.tgz#7f226d67d654ec9070e755f46daebf014628e9d9"
