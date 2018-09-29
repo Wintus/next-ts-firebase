@@ -1,4 +1,5 @@
 # Next.js by TypeScript with styled components & Firebase Hosting
+next-ts-styled-firebase
 
 ## How to use
 
